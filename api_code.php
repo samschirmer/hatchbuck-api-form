@@ -16,8 +16,8 @@ $emailAddress = $_POST["emailAddress"];
 
 # Setting necessary values
 $api_key = "EnterKeyHere";	# ENTER API KEY BETWEEN QUOTES
-$emailType = "Work";
-$status = "Customer";
+$emailType = "Work";		# Set default email type here
+$status = "Customer";		# Set default contact status here
 
 # Setting APU URL
 $url = "https://api.hatchbuck.com/api/v1/contact?api_key=$api_key";
