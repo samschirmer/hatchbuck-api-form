@@ -1,0 +1,35 @@
+html
+{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body
+{
+	text-align: center;
+}
+
+h1
+{
+	text-align: center;
+	font-weight: 900;
+	padding: 50px;
+}
+
+li
+{
+	list-style-type: none;
+	padding: 15px;
+}
+
+form
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form input
+{
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
